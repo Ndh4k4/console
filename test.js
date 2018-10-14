@@ -1,5 +1,4 @@
-(function() { 
-    alert("bookmarklet starting");
+(function() {
     let script = document.createElement('script'); 
     script.src="https://cdn.jsdelivr.net/npm/eruda"; 
     document.body.appendChild(script); 
